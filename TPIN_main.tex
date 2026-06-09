@@ -1,0 +1,243 @@
+% ============================================================================
+% Fichier     : TPIN_main.tex
+% Titre       : Théorie et Pratique de l'Investigation Numérique
+% Auteur      : MINKA MI NGUIDJOÏ Thierry Emmanuel
+% Institution : Université de Yaoundé I — ENSP / LIMSI
+% Unité       : Département de Génie Informatique
+% Code UE     : 
+% Version     : 2.0 — Année académique 2025–2026
+%
+% COMPILATION :
+%   pdflatex TPIN_main.tex
+%   biber    TPIN_main
+%   makeindex TPIN_main.idx
+%   pdflatex TPIN_main.tex  (x2 pour ToC et références croisées)
+%
+% ORGANISATION DES FICHIERS :
+%   TPIN_main.tex          — ce fichier (orchestrateur)
+%   Style_IN.sty           — feuille de style unifiée
+%   bibliographie/         — fichier(s) .bib
+%   front/                 — page de titre, avant-propos, remerciements
+%   partie0/               — Prologue opérationnel
+%   partie1/               — Fondements épistémologiques et historiques
+%   partie2/               — Processus et méthodologies d'investigation
+%   partie3/               — Cadre normatif, judiciaire et déontologique
+%   partie4/               — Forensique opérationnelle (système, réseau, mobile)
+%   partie5/               — Anti-forensique, contre-mesures, IA forensique
+%   partie6/               — Crypto-forensique et innovations (CRO, ZK-NR)
+%   annexes/               — Glossaire, outils, templates, bibliographie, contacts
+% ============================================================================
+
+\documentclass[12pt, twoside, openright, a4paper]{book}
+
+% --- Feuille de style unifiée ---
+\usepackage{Style_IN}
+
+% --- Bibliographie ---
+\addbibresource{bibliographie/TPIN_references.bib}
+
+% ============================================================================
+% MÉTADONNÉES PDF
+% ============================================================================
+\hypersetup{
+    pdftitle={Théorie et Pratique de l'Investigation Numérique},
+    pdfauthor={MINKA MI NGUIDJOÏ Thierry Emmanuel},
+    pdfsubject={GES4062 — Génie Informatique — ENSP Yaoundé I},
+    pdfkeywords={investigation numérique, forensique, Trilemme CRO, ZK-NR,
+                 cryptographie post-quantique, droit camerounais, TPIN}
+}
+
+% ============================================================================
+% DÉBUT DU DOCUMENT
+% ============================================================================
+\begin{document}
+
+% --------------------------------------------------------------------------
+% ÉLÉMENTS PRÉLIMINAIRES (pages romaines)
+% --------------------------------------------------------------------------
+\frontmatter
+
+    \input{front/00_page_titre}
+    \cleardoublepage
+
+    \input{front/01_avant_propos}
+    \cleardoublepage
+
+    \input{front/02_mode_emploi}
+    \cleardoublepage
+
+    \tableofcontents
+    \cleardoublepage
+
+    \listoffigures
+    \listoftables
+    \cleardoublepage
+
+% --------------------------------------------------------------------------
+% CORPS DU COURS (pages arabes)
+% --------------------------------------------------------------------------
+\mainmatter
+
+    % ======================================================================
+    % PARTIE 0 — PROLOGUE OPÉRATIONNEL
+    % « Avant toute théorie, une scène de crime »
+    % But : créer l'urgence pédagogique dès la première page.
+    % Niveau : introductif — aucun prérequis.
+    % ======================================================================
+    \part{Prologue Opérationnel}
+    \label{part:prologue}
+
+        \input{partie0/P00_scene_crime_numerique}
+    
+    % ======================================================================
+    % PARTIE I — FONDEMENTS ÉPISTÉMOLOGIQUES ET HISTORIQUES
+    % Standards de référence : DFRWS, NIST SP 800-86 §2, Casey 2004
+    % Niveau : fondamental
+    % ======================================================================
+    \part{Fondements Épistémologiques et Historiques}
+    \label{part:fondements}
+
+        \input{partie1/P01_C01_philosophie_fondements}
+       
+        \input{partie1/P01_C02_histoire_investigation}
+      
+        \input{partie1/P01_C03_grandes_affaires}
+       
+        \input{partie1/P01_C04_fondements_theoriques}
+      
+        \input{partie1/P01_C05_etat_art}
+       
+    % ======================================================================
+    % PARTIE II — PROCESSUS ET MÉTHODOLOGIES D'INVESTIGATION
+    % Standards : DFRWS 2001, ISO/IEC 27043, NIST SP 800-86, RFC 3227
+    % Niveau : fondamental à intermédiaire
+    % ======================================================================
+    \part{Processus et Méthodologies d'Investigation}
+    \label{part:methodologie}
+
+        \input{partie2/P02_C06_PIU_processus_universel}
+      
+        \input{partie2/P02_C07_methodologies_standards}
+       
+        \input{partie2/P02_C08_chaine_custody}
+       
+        \input{partie2/P02_C09_outils_acquisition}
+      
+    % ======================================================================
+    % PARTIE III — CADRE NORMATIF, JUDICIAIRE ET DÉONTOLOGIQUE
+    % Standards : Convention de Budapest, Convention de Malabo, Loi 2010/012
+    % Niveau : fondamental (avec approfondissements juridiques)
+    % ======================================================================
+    \part{Cadre Normatif, Judiciaire et Déontologique}
+    \label{part:normatif}
+
+        \input{partie3/P03_C10_cadre_normatif_global}
+       
+        \input{partie3/P03_C11_legislation_mondiale}
+       
+        \input{partie3/P03_C12_droit_camerounais_africain}
+       
+        \input{partie3/P03_C13_deontologie_investigateur}
+      
+    % ======================================================================
+    % PARTIE IV — FORENSIQUE OPÉRATIONNELLE
+    % Standards : SANS FOR508/FOR610, NIST SP 800-86/101, SWGDE
+    % Niveau : intermédiaire à expert
+    % ======================================================================
+    \part{Forensique Opérationnelle}
+    \label{part:forensique}
+
+        \input{partie4/P04_C14_forensique_systeme}
+      
+        \input{partie4/P04_C15_forensique_reseau}
+       
+        \input{partie4/P04_C16_forensique_mobile}
+       
+        \input{partie4/P04_C17_forensique_cloud}
+      
+        \input{partie4/P04_C18_forensique_iot_embarque}
+      
+        \input{partie4/P04_C19_rapport_forensique}
+       
+        \input{partie4/P04_C20_applications_cas}
+     
+
+    % ======================================================================
+    % PARTIE V — ANTI-FORENSIQUE, IA ET DÉFIS ÉMERGENTS
+    % Standards : SANS FOR610, MITRE ATT&CK, DFRWS 2024
+    % Niveau : expert
+    % ======================================================================
+    \part{Anti-Forensique, IA Forensique et Défis Émergents}
+    \label{part:avance}
+
+        \input{partie5/P05_C21_anti_forensique}
+   
+        \input{partie5/P05_C22_ia_forensique}
+      
+        \input{partie5/P05_C23_containers_cloud_native}
+    
+        \input{partie5/P05_C24_benchmarking}
+    
+    % ======================================================================
+    % PARTIE VI — CRYPTO-FORENSIQUE ET CONTRIBUTIONS ORIGINALES
+    % Contributions : Trilemme CRO (ePrint 2025/1348), ZK-NR (ePrint 2025/1138)
+    % Niveau : expert — recherche
+    % ======================================================================
+    \part{Crypto-Forensique et Contributions Originales}
+    \label{part:crypto}
+
+        \input{partie6/P06_C25_impact_quantique}
+    
+        \input{partie6/P06_C26_trilemme_CRO}
+    
+        \input{partie6/P06_C27_analyse_primitives}
+     
+        \input{partie6/P06_C28_protocole_ZKNR}
+    
+        \input{partie6/P06_C29_fondements_cryptanalyse}
+    
+        \input{partie6/P06_C30_methodologie_formelle}
+     
+        \input{partie6/P06_C31_cas_pratique_zknr}
+     
+% --------------------------------------------------------------------------
+% ANNEXES
+% --------------------------------------------------------------------------
+\appendix
+
+    \input{annexes/Ann_A_glossaire}
+    % Glossaire étendu (200+ termes). Termes camerounais et africains ajoutés.
+
+    \input{annexes/Ann_B_outils}
+    % Référentiel complet des outils forensiques (open source + commerciaux).
+    % Tableau : outil / OS / usage / commande de base / niveau.
+
+    \input{annexes/Ann_C_templates}
+    % Templates opérationnels : formulaire chaîne de custody, rapport forensique,
+    % fiche de saisie de scène de crime numérique.
+
+    \input{annexes/Ann_D_lois}
+    % Textes législatifs en intégralité :
+    % Loi 2010/012, Loi 2010/013, extraits CEMAC pertinents.
+
+    \input{annexes/Ann_E_bibliographie}
+    % Bibliographie complète (style IEEE via biber).
+
+    \input{annexes/Ann_F_contacts}
+    % Contacts, organisations, conférences, communautés en ligne.
+
+
+% --------------------------------------------------------------------------
+% ÉLÉMENTS FINAUX
+% --------------------------------------------------------------------------
+\backmatter
+
+    \printbibliography[heading=bibintoc, title={Références bibliographiques}]
+
+    \printindex
+
+\end{document}
+
+% ============================================================================
+% Fin de TPIN_main.tex
+% ============================================================================
