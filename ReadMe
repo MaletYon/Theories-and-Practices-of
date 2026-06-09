@@ -1,38 +1,38 @@
-# 🌍 Plateforme pédagogique MalɛtYɔn – Cours d’informatique
+🌍 Plateforme pédagogique MalɛtYɔn – Cours d’informatique
 
-> **MalɛtYɔn: "Ton Enseignant" en Bassa**  
-> *École Nationale Supérieure Polytechnique de Yaoundé*  
-> *Département de Mathématiques et Informatiques – Université de Garoua*
+> MalɛtYɔn: "Ton Enseignant" en Bassa 
 
----
+Les cours de cette plateforme sont prioritairement pour mes étudiants de:
+> École Nationale Supérieure Polytechnique de Yaoundé I Ngoa et Kelle
+> Département de Mathématiques et Informatiques – Université de Garoua
+> Programme Supérieur de Spécialisation en Finances Publiques – Université de Yaoundé II SOA
 
-## 📖 Notre vision : un écosystème vivant de savoirs décolonisés
 
-**MalɛtYɔn** n’est pas une simple collection de cours.  
+📖 Notre vision : un écosystème vivant de savoirs décolonisés
+
+MalɛtYɔn n’est pas une simple collection de cours.  
 C’est un mouvement pédagogique, une infrastructure de savoir vivante, une communauté apprenante où chaque étudiant, chaque enseignant, chaque praticien devient acteur et co-créateur.
 
-**Nos piliers** :
-- 🔄 **Pédagogie circulaire** – du local à l’universel, du terrain au théorique
-- 🌱 **Savoir vivant** – ressources évolutives enrichies par la communauté
-- 🤝 **Réciprocité cognitive** – enseigner, apprendre, contribuer
-- 🏗️ **Infrastructure ouverte** – transparente, accessible, opposable
+Nos piliers :
+- 🔄 Pédagogie circulaire – du local à l’universel, du terrain au théorique
+- 🌱 Savoir vivant – ressources évolutives enrichies par la communauté
+- 🤝 Réciprocité cognitive – enseigner, apprendre, contribuer
+- 🏗️ Infrastructure ouverte – transparente, accessible, opposable
 
----
 
-## 🧭 Philosophie commune à tous les cours
+🧭 Philosophie commune à tous les cours
 
-Chaque répertoire de cours respecte l’esprit **MalɛtYɔn** :
+Chaque répertoire de cours respecte l’esprit MalɛtYɔn :
 
-- **Ubuntu pédagogique** – apprendre ensemble, sans hiérarchie rigide
-- **Sankofa numérique** – puiser dans les savoirs traditionnels pour bâtir l’avenir tech
-- **Oralité digitale** – fusion entre traditions orales et supports modernes
-- **Décolonisation cognitive** – critique active des biais technologiques importés
+- Ubuntu pédagogique: apprendre ensemble, sans hiérarchie rigide
+- Adna numérique: puiser dans les savoirs traditionnels pour bâtir l’avenir tech
+- Oralité digitale: fusion entre traditions orales et supports modernes
+- Décolonisation cognitive: critique active des biais technologiques importés
 
-📌 *Ces principes irriguent l’ensemble des contenus, des exercices, des évaluations et des interactions.*
+📌 Ces principes irriguent l’ensemble des contenus, des exercices, des évaluations et des interactions.
 
----
 
-## 📚 Liste des cours disponibles
+📚 Liste des cours disponibles
 
 Chaque cours est un dépôt autonome dans ce répertoire global.  
 Voici la structure actuelle (enrichissement continu) :
@@ -44,11 +44,10 @@ Voici la structure actuelle (enrichissement continu) :
 | INF…   | *(à venir)* Programmation Web | L2 | [📁 Ajout prochain] |
 | INF…   | *(à venir)* Cryptographie & Sécurité | M1 | [📁 Ajout prochain] |
 
-> 💡 *Chaque cours suit l’architecture standardisée décrite ci-dessous.*
+> 💡 *Chaque cours suit l’architecture standardisée décrite ci-dessous.
 
----
 
-## 🧱 Architecture standard d’un cours MalɛtYɔn
+🧱 Architecture standard d’un cours MalɛtYɔn
 NomDuCours/
 ├── 1_Cours_Principal/
 │ ├── Format_PDF/
@@ -77,11 +76,9 @@ NomDuCours/
 └── README.md (spécifique au cours)
 
 
----
+🚀 Comment utiliser cette plateforme
 
-## 🚀 Comment utiliser cette plateforme
-
-### Pour les étudiants
+Pour les étudiants
 1. Clonez ce dépôt :  
    `git clone https://github.com/votre-nom/maletyon-cours.git`
 2. Naviguez vers le cours souhaité.
@@ -92,32 +89,30 @@ NomDuCours/
    - les modalités d’évaluation
 4. Explorez les dossiers `1_Cours_Principal` → `2_Travaux_Pédagogiques` → `3_Ressources_Externes`.
 
-### Pour les enseignants et contributeurs
+Pour les enseignants et contributeurs
 - Utilisez l’architecture type pour créer un nouveau cours.
-- Inspirez-vous de la philosophie **MalɛtYɔn**.
+- Inspirez-vous de la philosophie MalɛtYɔn.
 - Proposez vos améliorations via `4_Contributions_Suggestions`.
 
----
-
-## 🤝 Devenir acteur de l’écosystème
+🤝 Devenir acteur de l’écosystème
 
 Ce dépôt vit par et pour sa communauté.  
-**Vous pouvez contribuer** de multiples façons :
+Vous pouvez contribuer de multiples façons :
 
-- 📚 **Améliorer le fond** : corrigez, enrichissez, actualisez via Pull Request
-- 💡 **Proposer des cas pratiques** ancrés dans les réalités camerounaises, africaines
-- 🌍 **Traduire** les ressources en langues africaines (bassa, ewondo, fulfuldé, etc.)
-- 🧠 **Partager votre expertise** : devenez co-constructeur d’un cours
-- 🐛 **Signaler une erreur** ou un biais culturel / technique
+- 📚 Améliorer le fond : corrigez, enrichissez, actualisez via Pull Request
+- 💡 Proposer des cas pratiques ancrés dans les réalités camerounaises, africaines
+- 🌍 Traduire les ressources en langues africaines (bassa, ewondo, fulfuldé, etc.)
+- 🧠 Partager votre expertise : devenez co-constructeur d’un cours
+- 🐛 Signaler une erreur ou un biais culturel / technique
 
 👉 Consultez `CONTRIBUTING.md` (à créer dans la racine) pour le guide complet.
 
----
 
-## 📜 Licence globale
+
+ 📜 Licence globale
 
 L’ensemble des contenus de cette plateforme est sous licence  
-**Creative Commons Attribution – Partage dans les Mêmes Conditions 4.0 International (CC BY-SA 4.0)**.
+Creative Commons Attribution – Partage dans les Mêmes Conditions 4.0 International (CC BY-SA 4.0).
 
 Cela permet :
 - ✅ le partage libre
@@ -125,19 +120,17 @@ Cela permet :
 - ✅ l’utilisation en contexte africain et international  
 sous condition de citer l’auteur et de partager sous la même licence.
 
-> *Dans l’esprit d’Ubuntu et d’Adna : le savoir n’est pas une marchandise, c’est un feu qui grandit quand on le partage.*
+> Dans l’esprit d’Ubuntu et d’Adna : le savoir n’est pas une marchandise, c’est un feu qui grandit quand on le partage.
 
----
 
-## 📬 Contact & communautés
+📬 Contact & communautés
 
-**MalɛtYɔn** – *Ton Enseignant*  
+MalɛtYɔn – Ton Enseignant 
 📧 maletyon@proton.me  
-🔗 (liens vers groupes Mattermost/WhatsApp/Telegram si existants)
 
----
 
-> *"La véritable éducation ne consiste pas à remplir des vases mais à allumer des feux."*  
+
+> "La véritable éducation ne consiste pas à remplir des vases mais à allumer des feux." 
 > – Proverbe africain
 
-**Ensemble, construisons une école nouvelle, ancrée dans nos réalités, ouverte sur le monde.**
+Ensemble, construisons une école nouvelle, ancrée dans nos réalités, ouverte sur le monde.
